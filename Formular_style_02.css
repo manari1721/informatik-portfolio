@@ -1,0 +1,17 @@
+/* Sass Document */
+/* Sass Document */
+.kontaktformular, .button {
+  margin-left: 5%;
+  margin-top: 5%; }
+
+.titel {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.email {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.text {
+  font-family: Arial, Helvetica, sans-serif; }
+
+.button {
+  background-color: #8c45c7; }

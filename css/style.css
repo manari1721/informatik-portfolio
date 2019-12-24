@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	color: #FFFFFF;
+	text-decoration: none
+	
+}
+
+.container1{
+	
+	width: 1360px;
+	margin: 40px auto;
+	overflow: auto;
+}
+
+.slider-inner{
+	width: 1280px;
+	height: 800px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 3px;
+	border: #666 solid 1px;
+	
+}
+
+.slider-inner img{
+	display: none;
+	width: 1280;
+	height: 800;
+		
+}
+
+.slider-inner img.active1{
+	display: inline-block;
+	
+	
+}
+
+.prev, .next{
+	float: left;
+	margin-top: 130px;
+	cursor: pointer;
+}
+
+.prev{
+	position: relative;
+	margin-right: -45px;
+	z-index: 100;
+}
+
+.next{
+	position: relative;
+	margin-left: -45px;
+	z-index: 100;
+}
+
+.col-md-4{
+	transition: all 400ms;
+	opacity: 0;
+}
+
+.fade {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
